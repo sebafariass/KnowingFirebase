@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import firebase from 'firebase'
 
+//PASARLE UN METODO DE CONFIGURACION
 //fireBASE!
  var firebaseConfig = {
   apiKey: "AIzaSyBJK-vuaYxkXHcfbtpS1pnoVPqZB3BPKTk",
@@ -14,7 +15,9 @@ import firebase from 'firebase'
   messagingSenderId: "946634759140",
   appId: "1:946634759140:web:a28ddfe7cfaa7d7ea405f1"
 };
-  // INICIANDO  Firebase
+
+
+  // INICIANDO  Firebase con metodo initializeApp
   firebase.initializeApp(firebaseConfig);
 Vue.config.productionTip = false
 
